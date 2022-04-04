@@ -1,0 +1,38 @@
+.section-container{
+    margin: 0 100px;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.home-text{
+    width: 100%;
+    margin-right: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home-text h1{
+    text-transform: capitalize ;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.Image{
+    width: 100%;
+    margin-left: 5px;    
+}
+.Image img{
+    width: 100%;
+    
+}
+
+.reviews-container{
+    margin-top: 40px;
+    border: 2px solid red;
+}
