@@ -1,0 +1,22 @@
+.dashBoard-container{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px; ;
+}
+
+.rechart{
+     width: 500px;
+}
+.dashBoard-container h3{
+    color: rgba(0, 0, 255, 0.705);
+}
+
+
+@media only screen and (max-width: 550px){
+    .dashBoard-container, .rechart{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        width: 450px;
+    }
+}
