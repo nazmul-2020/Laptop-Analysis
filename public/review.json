@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Pabel",
+        "review": "Bought many computers over the years, but Dell stands out for quality and longevity. Soon I will buy their Poweredge server, but will wait for the Black Monday discount. All other computers I bought had problems, but Dell is a solid bet.",
+        "ratings": 3.5,
+        "img": ""
+    },
+    {
+        "id": "2",
+        "name": "Tanvir",
+        "review": "In two months the system crashed (blue screen) twice while using Dell's update tool. System got buggy after using Dell's recovery tool. Asked for help from support.",
+        "ratings": 5,
+        "img": ""
+    },
+    {
+        "id": "3",
+        "name": "Kobir",
+        "review": "It is horrible. The worst computer I have ever owned. I would not recommend this piece of junk to anyone! It huffs and puffs worse than a COPD patient, freeze, and is just a pain to use. Don't ever buy one. It is a waste of your money!",
+        "ratings": 2,
+        "img": ""
+    },
+    {
+        "id": "4",
+        "name": "Nazmul",
+        "review": "Dell service will not take any responsibility for device. Worst thing is Dell cannot be trusted. HP services are much better. Even hp devices are more efficient. Dell technicians are either not available or they are not capable enough. I would never prefer to buy a Dell product again. Buying Dell laptop is of no use.",
+        "ratings": 4.5,
+        "img": ""
+    },
+    {
+        "id": "5",
+        "name": "Sabbir",
+        "review": "Beware of Dell support. I am a tech professional recently retired and getting decent support as a non-business customer is impossible. I purchased the best extended warranty/service Dell has to offer and I am still without a working laptop a month later. At the current pace, it could easily be another month.",
+        "ratings": 2.5,
+        "img": ""
+    },
+    {
+        "id": "6",
+        "name": "Tasrife",
+        "review": "I would never ever deal with Dell co even if the are the only supplier left in the world. Sales people are liars, technical support not responding, escalation team in tatters even top people. They are busy in social networks not in business.",
+        "ratings": 4,
+        "img": ""
+    }
+]

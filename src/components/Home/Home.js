@@ -1,11 +1,16 @@
 import React from 'react';
 import './Home.css'
 import laptop from "../../Assets/Image/laptop.jpg"
+import useReview from '../hooks/useReview';
+import { Link } from 'react-router-dom';
+import ReviewInfo from '../ReviewInfo/ReviewInfo';
 
 const Home = () => {
+    const [reviews, setReview] = useReview();
+    console.log(reviews);
     return (
         <section className='section-container'>
-            <h1>home</h1>
+
             <div className="home-container">
                 <div className="home-text">
                     <h1>Latest unique Laptop your best Laptop  </h1>
@@ -16,8 +21,18 @@ const Home = () => {
                 </div>
             </div>
             <div className="reviews-container">
-                <h1>Reviews</h1>
-                <button>See All Reviews</button>
+                <h1>Customer Reviews</h1>
+                <div className='reviews'>
+                    {
+                        reviews.slice(0, 3).map(review => <ReviewInfo
+                            key={review.id}
+                            review={review}
+                        ></ReviewInfo>)
+                    }
+                </div>
+
+                <button className='btn'><Link to='/Reviews'>See All Reviews</Link></button>
+
             </div>
         </section>
     );

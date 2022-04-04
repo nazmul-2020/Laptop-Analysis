@@ -1,38 +1,71 @@
-.section-container{
+.section-container {
     margin: 0 100px;
 }
 
-.home-container{
+.home-container {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.home-text{
+.home-text {
     width: 100%;
     margin-right: 5px;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: justify;
 }
 
-.home-text h1{
-    text-transform: capitalize ;
+.home-text h1 {
+    text-transform: capitalize;
     font-size: 40px;
     font-weight: 700;
     
+
 }
 
-.Image{
+.Image {
     width: 100%;
-    margin-left: 5px;    
-}
-.Image img{
-    width: 100%;
-    
+    margin-left: 5px;
 }
 
-.reviews-container{
-    margin-top: 40px;
-    border: 2px solid red;
+.Image img {
+    width: 100%;
+
+}
+
+.reviews-container {
+    margin: 40px 0;
+
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+
+
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(137, 43, 226, 0.644);
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    background-color: rgb(137, 43, 226);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
 }
