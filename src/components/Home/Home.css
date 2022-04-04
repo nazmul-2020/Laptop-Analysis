@@ -69,3 +69,12 @@
     font-weight: 600;
     font-size: 15px;
 }
+
+@media only screen and (max-width: 550px){
+    .home-container,.reviews,.section-container,.review-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        width: 450px;
+    }
+}

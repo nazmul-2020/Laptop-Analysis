@@ -16,7 +16,7 @@
 @media only screen and (max-width: 550px){
     .dashBoard-container, .rechart{
         grid-template-columns: repeat(1,1fr);
-        margin: 0;
+        margin: 20px;
         width: 450px;
     }
 }
