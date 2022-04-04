@@ -7,7 +7,7 @@ import ReviewInfo from '../ReviewInfo/ReviewInfo';
 
 const Home = () => {
     const [reviews, setReview] = useReview();
-    console.log(reviews);
+    
     return (
         <section className='section-container'>
 
