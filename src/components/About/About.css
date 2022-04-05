@@ -1,0 +1,15 @@
+.about{
+    background-color: rgba(65, 105, 225, 0.5);
+    height: 100vh;
+}
+
+.about h1{
+    font-size: 70px;
+    color: rgba(236, 13, 13, 0.904);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}

@@ -1,0 +1,17 @@
+.all-blogs{
+    margin: 0 100px;
+}
+ .blog{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 30px;
+ }
+
+ @media only screen and (max-width: 550px){
+    .blog,.all-blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        /* width: 450px; */
+    }
+}
